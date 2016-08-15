@@ -1,0 +1,17 @@
+
+.main,.hour ,.minute, .second{background:url(../images/naozhong.png) no-repeat; background-size:1200px 1200px;}
+.main{ width:759px; height:735px;
+  background-position:-382px -216px  ; position:relative;}
+.hour{width:32px; height:162px; position:absolute;background-position:-159px -422px ; left:363px; top:225px;transform-origin: 100% 100%;}
+.minute{width:27px; height:240px; position:absolute;background-position:-158px -119px ; left:366px; top:157px;transform-origin: 80% 80%;}
+.second{ width:30px; height:320px; position:absolute;background-position:-125px -795px ; left:363px; top:132px;transform-origin: 85% 80%; }
+
+.zhuandong
+{
+	transform-origin: 100% 100%;
+transform: rotate(30deg);
+-ms-transform: rotate(30deg);		/* IE 9 */
+-webkit-transform: rotate(30deg);	/* Safari and Chrome */
+-o-transform: rotate(30deg);		/* Opera */
+-moz-transform: rotate(30deg);		/* Firefox */
+}
